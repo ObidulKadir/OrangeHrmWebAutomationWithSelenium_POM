@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-05T02:30:45Z" name="Default suite" finished-at="2023-12-05T02:31:04Z" duration-ms="19827">
+    <groups>
+    </groups>
+    <test started-at="2023-12-05T02:30:45Z" name="Default test" finished-at="2023-12-05T02:31:04Z" duration-ms="19827">
+      <class name="Tests.LoginPageTest">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:Tests.LoginPageTest@12359a82]" started-at="2023-12-05T08:30:43Z" name="startBrowser" finished-at="2023-12-05T08:30:45Z" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method is-config="true" signature="start()[pri:0, instance:Tests.LoginPageTest@12359a82]" started-at="2023-12-05T08:30:45Z" name="start" finished-at="2023-12-05T08:30:54Z" duration-ms="9073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="loginTestWithValidCredentials()[pri:0, instance:Tests.LoginPageTest@12359a82]" started-at="2023-12-05T08:30:54Z" name="loginTestWithValidCredentials" finished-at="2023-12-05T08:31:04Z" duration-ms="10418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithValidCredentials -->
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.LoginPageTest@12359a82]" started-at="2023-12-05T08:31:04Z" name="report" finished-at="2023-12-05T08:31:04Z" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Tests.LoginPageTest@12359a82]" started-at="2023-12-05T08:31:05Z" name="close" finished-at="2023-12-05T08:31:05Z" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

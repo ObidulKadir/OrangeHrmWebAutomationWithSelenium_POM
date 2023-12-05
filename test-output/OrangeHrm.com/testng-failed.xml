@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHrm.com]" guice-stage="DEVELOPMENT">
+  <test name="Tests(failed)">
+    <classes>
+      <class name="Tests.LoginPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="report"/>
+          <include name="startBrowser"/>
+          <include name="loginTestWithInValidCredentials"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [OrangeHrm.com] -->
