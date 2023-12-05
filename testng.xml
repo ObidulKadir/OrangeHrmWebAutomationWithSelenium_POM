@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="OrangeHrm.com">
-    <test name="Test">
+    <test name="LoginPage">
         <classes>
             <class name="Tests.LoginPageTest">
                 
@@ -15,4 +15,10 @@
             </class>
         </classes>
     </test>
+    
+    <test name="DashboardPage">
+		<classes>
+			<class name="Tests.DashboardPageTest" />
+		</classes>
+	</test>
 </suite>
