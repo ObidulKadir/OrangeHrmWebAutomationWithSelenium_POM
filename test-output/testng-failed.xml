@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [OrangeHrm.com]" guice-stage="DEVELOPMENT">
-  <test name="Tests(failed)">
+  <test name="AdminPageTest(failed)">
     <classes>
-      <class name="Tests.LoginPageTest">
+      <class name="Tests.AdminPageTest">
         <methods>
-          <include name="close"/>
-          <include name="report"/>
-          <include name="startBrowser"/>
-          <include name="loginTestWithInValidCredentials"/>
           <include name="start"/>
+          <include name="searchFunctionalityCheck"/>
+          <include name="report"/>
         </methods>
-      </class> <!-- Tests.LoginPageTest -->
+      </class> <!-- Tests.AdminPageTest -->
     </classes>
-  </test> <!-- Tests(failed) -->
+  </test> <!-- AdminPageTest(failed) -->
 </suite> <!-- Failed suite [OrangeHrm.com] -->

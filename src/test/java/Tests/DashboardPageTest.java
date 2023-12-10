@@ -22,12 +22,12 @@ public class DashboardPageTest {
 //		PageDriver.getCurrentDriver().get(url);
 //		Thread.sleep(5000);
 		report = ExtentFactory.getInstance();
-		parentTest = report.createTest("<p style=\"color:#FF6000; font-size:20px\"><b>ORANGE HRM Admin</b></p>").assignAuthor("QA TEAM").assignDevice("Windows");
+		parentTest = report.createTest("<p style=\"color:#FF6000; font-size:20px\"><b>DashBoard Page.</b></p>").assignAuthor("QA TEAM").assignDevice("Windows");
 	}
 
 	@Test
 	public void adminTest() throws InterruptedException, IOException {
-		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>ADMIN</b></p>");
+		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Navigate to ADMIN page</b></p>");
 		DashBoardPage boardPage = new DashBoardPage(childTest);
 		boardPage.admin();
 		

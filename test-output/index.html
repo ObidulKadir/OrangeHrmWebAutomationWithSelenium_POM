@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-OrangeHrm.com" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,27 @@
                     <div class="method-list-content passed suite-OrangeHrm.com">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHrm.com" title="Tests.AdminPageTest" class="method navigator-link" hash-for-method="addNewUser">addNewUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-OrangeHrm.com" title="Tests.DashboardPageTest" class="method navigator-link" hash-for-method="adminTest">adminTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-OrangeHrm.com" title="Tests.LoginPageTest" class="method navigator-link" hash-for-method="loginTestWithValidCredentials">loginTestWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHrm.com" title="Tests.AdminPageTest" class="method navigator-link" hash-for-method="searchFunctionalityCheck">searchFunctionalityCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHrm.com" title="Tests.AdminPageTest" class="method navigator-link" hash-for-method="updateFunctionalityCheck">updateFunctionalityCheck</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-OrangeHrm.com -->
@@ -133,6 +148,35 @@
                   <a name="adminTest">
                   </a> <!-- adminTest -->
                   <span class="method-name">adminTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHrm.com-class-passed -->
+          <div class="suite-OrangeHrm.com-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.AdminPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUser">
+                  </a> <!-- addNewUser -->
+                  <span class="method-name">addNewUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFunctionalityCheck">
+                  </a> <!-- searchFunctionalityCheck -->
+                  <span class="method-name">searchFunctionalityCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateFunctionalityCheck">
+                  </a> <!-- updateFunctionalityCheck -->
+                  <span class="method-name">updateFunctionalityCheck</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -172,6 +216,11 @@
       &lt;class name=&quot;Tests.DashboardPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- DashboardPage --&gt;
+  &lt;test name=&quot;AdminPageTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.AdminPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AdminPageTest --&gt;
 &lt;/suite&gt; &lt;!-- OrangeHrm.com --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,6 +236,9 @@
               </li>
               <li>
                 <span class="test-name">DashboardPage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AdminPageTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,20 +264,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'adminTest')
-data.setCell(0, 2, 'Tests.DashboardPageTest')
-data.setCell(0, 3, 11588);
+data.setCell(0, 1, 'addNewUser')
+data.setCell(0, 2, 'Tests.AdminPageTest')
+data.setCell(0, 3, 43299);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTestWithValidCredentials')
-data.setCell(1, 2, 'Tests.LoginPageTest')
-data.setCell(1, 3, 10504);
+data.setCell(1, 1, 'updateFunctionalityCheck')
+data.setCell(1, 2, 'Tests.AdminPageTest')
+data.setCell(1, 3, 20846);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'adminTest')
+data.setCell(2, 2, 'Tests.DashboardPageTest')
+data.setCell(2, 3, 11159);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginTestWithValidCredentials')
+data.setCell(3, 2, 'Tests.LoginPageTest')
+data.setCell(3, 3, 10445);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchFunctionalityCheck')
+data.setCell(4, 2, 'Tests.AdminPageTest')
+data.setCell(4, 3, 9520);
 window.suiteTableData['OrangeHrm.com']= { tableData: data, tableDiv: 'times-div-OrangeHrm.com'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-OrangeHrm.com">
               </div> <!-- times-div-OrangeHrm.com -->
             </div> <!-- times-div -->
@@ -258,37 +322,60 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">start</span>
-                <span class="method-start">2646 ms</span>
+                <span class="method-start">1678 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTestWithValidCredentials</span>
-                <span class="method-start">12051 ms</span>
+                <span class="method-start">11011 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">report</span>
-                <span class="method-start">22556 ms</span>
+                <span class="method-start">21457 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.DashboardPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">start</span>
-                <span class="method-start">22834 ms</span>
+                <span class="method-start">21716 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">adminTest</span>
-                <span class="method-start">22835 ms</span>
+                <span class="method-start">21717 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">report</span>
-                <span class="method-start">34424 ms</span>
+                <span class="method-start">32878 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.AdminPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">start</span>
+                <span class="method-start">32961 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addNewUser</span>
+                <span class="method-start">32962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchFunctionalityCheck</span>
+                <span class="method-start">76262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateFunctionalityCheck</span>
+                <span class="method-start">85783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">report</span>
+                <span class="method-start">106630 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">close</span>
-                <span class="method-start">34508 ms</span>
+                <span class="method-start">106718 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

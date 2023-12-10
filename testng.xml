@@ -21,4 +21,10 @@
 			<class name="Tests.DashboardPageTest" />
 		</classes>
 	</test>
+	
+	<test name="AdminPageTest">
+		<classes>
+			<class name="Tests.AdminPageTest" />
+		</classes>
+	</test>
 </suite>
