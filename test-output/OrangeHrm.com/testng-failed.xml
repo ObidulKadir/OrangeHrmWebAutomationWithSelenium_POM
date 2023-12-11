@@ -6,7 +6,7 @@
       <class name="Tests.AdminPageTest">
         <methods>
           <include name="start"/>
-          <include name="searchFunctionalityCheck"/>
+          <include name="jobTitleFunctionalityCheck"/>
           <include name="report"/>
         </methods>
       </class> <!-- Tests.AdminPageTest -->

@@ -45,6 +45,21 @@ public class AdminPageTest {
 		AdminPage adminPage = new AdminPage(childTest);
 		adminPage.updateUser();
 	}
+	
+	@Test(priority = 3)
+	public void deleteFunctionalityCheck() throws InterruptedException, IOException {
+		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Verify the delete funcitonality.</b></p>");
+		AdminPage adminPage = new AdminPage(childTest);
+		adminPage.deleteUser();
+	}
+	
+	@Test(priority = 4)
+	public void jobTitleFunctionalityCheck() throws InterruptedException, IOException {
+		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Verify the job title funcitonality.</b></p>");
+		AdminPage adminPage = new AdminPage(childTest);
+		adminPage.jobTitleAddition();
+	}
+	
 	@AfterClass
 	public void report() {
 		report.flush();

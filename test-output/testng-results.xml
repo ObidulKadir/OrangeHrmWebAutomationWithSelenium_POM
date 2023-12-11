@@ -1,71 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-10T14:27:13Z" name="OrangeHrm.com" finished-at="2023-12-10T14:28:58Z" duration-ms="105043">
+  <suite started-at="2023-12-11T16:30:03Z" name="OrangeHrm.com" finished-at="2023-12-11T16:32:41Z" duration-ms="158073">
     <groups>
     </groups>
-    <test started-at="2023-12-10T14:27:13Z" name="LoginPage" finished-at="2023-12-10T14:27:33Z" duration-ms="20031">
+    <test started-at="2023-12-11T16:30:03Z" name="LoginPage" finished-at="2023-12-11T16:30:23Z" duration-ms="20375">
       <class name="Tests.LoginPageTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:Tests.LoginPageTest@87a85e1]" started-at="2023-12-10T20:27:13Z" name="start" finished-at="2023-12-10T20:27:22Z" duration-ms="9330" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:Tests.LoginPageTest@87a85e1]" started-at="2023-12-11T22:30:03Z" name="start" finished-at="2023-12-11T22:30:12Z" duration-ms="9665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="loginTestWithValidCredentials()[pri:0, instance:Tests.LoginPageTest@87a85e1]" started-at="2023-12-10T20:27:22Z" name="loginTestWithValidCredentials" finished-at="2023-12-10T20:27:33Z" duration-ms="10445" status="PASS">
+        <test-method signature="loginTestWithValidCredentials()[pri:0, instance:Tests.LoginPageTest@87a85e1]" started-at="2023-12-11T22:30:12Z" name="loginTestWithValidCredentials" finished-at="2023-12-11T22:30:23Z" duration-ms="10436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestWithValidCredentials -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.LoginPageTest@87a85e1]" started-at="2023-12-10T20:27:33Z" name="report" finished-at="2023-12-10T20:27:33Z" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.LoginPageTest@87a85e1]" started-at="2023-12-11T22:30:23Z" name="report" finished-at="2023-12-11T22:30:23Z" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
       </class> <!-- Tests.LoginPageTest -->
     </test> <!-- LoginPage -->
-    <test started-at="2023-12-10T14:27:33Z" name="DashboardPage" finished-at="2023-12-10T14:27:44Z" duration-ms="11242">
+    <test started-at="2023-12-11T16:30:23Z" name="DashboardPage" finished-at="2023-12-11T16:30:35Z" duration-ms="12287">
       <class name="Tests.DashboardPageTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:Tests.DashboardPageTest@52102734]" started-at="2023-12-10T20:27:33Z" name="start" finished-at="2023-12-10T20:27:33Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:Tests.DashboardPageTest@52102734]" started-at="2023-12-11T22:30:23Z" name="start" finished-at="2023-12-11T22:30:23Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="adminTest()[pri:0, instance:Tests.DashboardPageTest@52102734]" started-at="2023-12-10T20:27:33Z" name="adminTest" finished-at="2023-12-10T20:27:44Z" duration-ms="11159" status="PASS">
+        <test-method signature="adminTest()[pri:0, instance:Tests.DashboardPageTest@52102734]" started-at="2023-12-11T22:30:23Z" name="adminTest" finished-at="2023-12-11T22:30:35Z" duration-ms="12196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminTest -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.DashboardPageTest@52102734]" started-at="2023-12-10T20:27:44Z" name="report" finished-at="2023-12-10T20:27:44Z" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.DashboardPageTest@52102734]" started-at="2023-12-11T22:30:35Z" name="report" finished-at="2023-12-11T22:30:35Z" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
       </class> <!-- Tests.DashboardPageTest -->
     </test> <!-- DashboardPage -->
-    <test started-at="2023-12-10T14:27:44Z" name="AdminPageTest" finished-at="2023-12-10T14:28:58Z" duration-ms="73754">
+    <test started-at="2023-12-11T16:30:35Z" name="AdminPageTest" finished-at="2023-12-11T16:32:41Z" duration-ms="125397">
       <class name="Tests.LoginPageTest">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:Tests.LoginPageTest@87a85e1]" started-at="2023-12-10T20:27:11Z" name="startBrowser" finished-at="2023-12-10T20:27:13Z" duration-ms="1671" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:Tests.LoginPageTest@87a85e1]" started-at="2023-12-11T22:30:01Z" name="startBrowser" finished-at="2023-12-11T22:30:03Z" duration-ms="1696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Tests.LoginPageTest@87a85e1]" started-at="2023-12-10T20:28:58Z" name="close" finished-at="2023-12-10T20:28:58Z" duration-ms="425" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:Tests.LoginPageTest@87a85e1]" started-at="2023-12-11T22:32:41Z" name="close" finished-at="2023-12-11T22:32:41Z" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Tests.LoginPageTest -->
       <class name="Tests.AdminPageTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:Tests.AdminPageTest@55b53d44]" started-at="2023-12-10T20:27:44Z" name="start" finished-at="2023-12-10T20:27:44Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:Tests.AdminPageTest@366647c2]" started-at="2023-12-11T22:30:35Z" name="start" finished-at="2023-12-11T22:30:35Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="addNewUser()[pri:0, instance:Tests.AdminPageTest@55b53d44]" started-at="2023-12-10T20:27:44Z" name="addNewUser" finished-at="2023-12-10T20:28:28Z" duration-ms="43299" status="PASS">
+        <test-method signature="addNewUser()[pri:0, instance:Tests.AdminPageTest@366647c2]" started-at="2023-12-11T22:30:35Z" name="addNewUser" finished-at="2023-12-11T22:31:18Z" duration-ms="43214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewUser -->
-        <test-method signature="searchFunctionalityCheck()[pri:1, instance:Tests.AdminPageTest@55b53d44]" started-at="2023-12-10T20:28:28Z" name="searchFunctionalityCheck" finished-at="2023-12-10T20:28:37Z" duration-ms="9520" status="PASS">
+        <test-method signature="searchFunctionalityCheck()[pri:1, instance:Tests.AdminPageTest@366647c2]" started-at="2023-12-11T22:31:18Z" name="searchFunctionalityCheck" finished-at="2023-12-11T22:31:28Z" duration-ms="9498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchFunctionalityCheck -->
-        <test-method signature="updateFunctionalityCheck()[pri:2, instance:Tests.AdminPageTest@55b53d44]" started-at="2023-12-10T20:28:37Z" name="updateFunctionalityCheck" finished-at="2023-12-10T20:28:58Z" duration-ms="20846" status="PASS">
+        <test-method signature="updateFunctionalityCheck()[pri:2, instance:Tests.AdminPageTest@366647c2]" started-at="2023-12-11T22:31:28Z" name="updateFunctionalityCheck" finished-at="2023-12-11T22:31:49Z" duration-ms="20818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateFunctionalityCheck -->
-        <test-method is-config="true" signature="report()[pri:0, instance:Tests.AdminPageTest@55b53d44]" started-at="2023-12-10T20:28:58Z" name="report" finished-at="2023-12-10T20:28:58Z" duration-ms="84" status="PASS">
+        <test-method signature="deleteFunctionalityCheck()[pri:3, instance:Tests.AdminPageTest@366647c2]" started-at="2023-12-11T22:31:49Z" name="deleteFunctionalityCheck" finished-at="2023-12-11T22:32:14Z" duration-ms="24874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFunctionalityCheck -->
+        <test-method signature="jobTitleFunctionalityCheck()[pri:4, instance:Tests.AdminPageTest@366647c2]" started-at="2023-12-11T22:32:14Z" name="jobTitleFunctionalityCheck" finished-at="2023-12-11T22:32:41Z" duration-ms="26900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobTitleFunctionalityCheck -->
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.AdminPageTest@366647c2]" started-at="2023-12-11T22:32:41Z" name="report" finished-at="2023-12-11T22:32:41Z" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->

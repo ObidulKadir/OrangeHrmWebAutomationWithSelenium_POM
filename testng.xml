@@ -4,14 +4,6 @@
     <test name="LoginPage">
         <classes>
             <class name="Tests.LoginPageTest">
-                
-                <!--/* 
-                <methods>
-                    <include name="loginTestWithValidCredentials" />
-                    <include name="loginTestWithInValidCredentials" />
-                </methods>
-                -->
-               
             </class>
         </classes>
     </test>
