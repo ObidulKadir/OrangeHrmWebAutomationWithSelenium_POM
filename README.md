@@ -44,10 +44,10 @@ TestNG:
 - Go to the Employee List page.
 - Search the new employee
 - Delete the employee.
-- Logout from the system.
+- Log out from the system.
 
 
-## ExtentReport
+## ExtentReports
 
 ![ER1](https://github.com/ObidulKadir/OrangeHrmWebAutomationWithSelenium_POM/assets/39410598/e2f379bb-52f9-4102-b7cd-189c39245c34)
 ![ER2](https://github.com/ObidulKadir/OrangeHrmWebAutomationWithSelenium_POM/assets/39410598/0d135e48-821f-4a1b-8499-6cd0c2095d9b)
