@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [OrangeHrm.com]" guice-stage="DEVELOPMENT">
-  <test name="AdminPageTest(failed)">
+  <test name="PIMPageTest(failed)">
     <classes>
-      <class name="Tests.AdminPageTest">
+      <class name="Tests.PIMPageTest">
         <methods>
+          <include name="logOut"/>
+          <include name="employeListFunctionality"/>
           <include name="start"/>
-          <include name="jobTitleFunctionalityCheck"/>
           <include name="report"/>
+          <include name="addEmployeFunctionality"/>
+          <include name="searchByEmployeIdFunctionality"/>
+          <include name="DeleteFunctionality"/>
         </methods>
-      </class> <!-- Tests.AdminPageTest -->
+      </class> <!-- Tests.PIMPageTest -->
     </classes>
-  </test> <!-- AdminPageTest(failed) -->
+  </test> <!-- PIMPageTest(failed) -->
 </suite> <!-- Failed suite [OrangeHrm.com] -->

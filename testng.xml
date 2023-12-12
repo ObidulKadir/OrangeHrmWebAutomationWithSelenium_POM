@@ -19,4 +19,9 @@
 			<class name="Tests.AdminPageTest" />
 		</classes>
 	</test>
+	<test name="PIMPageTest">
+		<classes>
+			<class name="Tests.PIMPageTest" />
+		</classes>
+	</test>
 </suite>

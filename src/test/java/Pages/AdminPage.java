@@ -63,16 +63,16 @@ public class AdminPage extends BasePage{
 	@FindBy(xpath="//button[normalize-space()='Search']")
 	WebElement searchButton;
 	
-	@FindBy(xpath="//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/div[3]/div[1]/div[2]/div[2]/div[1]/div[6]/div[1]/button[2]")
+	@FindBy(xpath="//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/button[2]/i[1]")
 	WebElement updateButton;
 	
-	@FindBy(xpath="//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/div[3]/div[1]/div[2]/div[3]/div[1]/div[6]/div[1]/button[1]")
+	@FindBy(xpath="//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/button[1]")
 	WebElement deleteButton;
 	
 	@FindBy(xpath="//button[normalize-space()='Yes, Delete']")
 	WebElement confirmDeleteButton;
 	
-	int randomInteger = (int) (Math.floor(Math.random() * 1000) + 1);
+	int randomInteger = randomInteger();
 	public String UserName = "Jone"+randomInteger;
 	
 	
@@ -97,6 +97,13 @@ public class AdminPage extends BasePage{
 	@FindBy(xpath="//button[@type=\"submit\"]")
 	WebElement submitBtn;
 	
+	@FindBy(xpath="//span[normalize-space()='PIM']")
+	WebElement PIM;
+	
+	
+	public int randomInteger() {
+		return (int) (Math.floor(Math.random() * 10000) + 1);
+	}
 	
 	public void failCase(String message, String scName) throws IOException {
 		test.fail(
@@ -349,7 +356,18 @@ public class AdminPage extends BasePage{
 				
 		} catch (Exception e) {
 			failCase("Submit button unable to locate", "submitBtnFail");
-			
+		}
+	}
+	
+	//traverse to PIM
+	public void traverseToPIM() throws IOException {
+		try {
+			test.info("Click on the PIM from the side menu.");
+			clickOnElement(PIM);
+			sleepTime();
+			passCaseWithSC("Clicked on the PIM.", "PIMPass");
+		} catch (Exception e) {
+			failCase("pim is unable to locate", "PIMFail");
 		}
 	}
 }

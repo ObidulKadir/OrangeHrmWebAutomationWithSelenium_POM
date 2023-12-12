@@ -34,30 +34,37 @@ public class AdminPageTest {
 	
 	@Test(priority = 1)
 	public void searchFunctionalityCheck() throws InterruptedException, IOException {
-		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Verify the search funcitonality.</b></p>");
+		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Search by Employee name.</b></p>");
 		AdminPage adminPage = new AdminPage(childTest);
 		adminPage.search();
 	}
 	
 	@Test(priority = 2)
 	public void updateFunctionalityCheck() throws InterruptedException, IOException {
-		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Verify the update funcitonality.</b></p>");
+		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Update the user.</b></p>");
 		AdminPage adminPage = new AdminPage(childTest);
 		adminPage.updateUser();
 	}
 	
 	@Test(priority = 3)
 	public void deleteFunctionalityCheck() throws InterruptedException, IOException {
-		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Verify the delete funcitonality.</b></p>");
+		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Delete the user.</b></p>");
 		AdminPage adminPage = new AdminPage(childTest);
 		adminPage.deleteUser();
 	}
 	
 	@Test(priority = 4)
 	public void jobTitleFunctionalityCheck() throws InterruptedException, IOException {
-		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Verify the job title funcitonality.</b></p>");
+		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Add a job title.</b></p>");
 		AdminPage adminPage = new AdminPage(childTest);
 		adminPage.jobTitleAddition();
+	}
+	
+	@Test(priority = 5)
+	public void traverseToPIMPage() throws InterruptedException, IOException {
+		childTest = parentTest.createNode("<p style=\"color:#3E96E7; font-size:20px\"><b>Traverse to PIM page.</b></p>");
+		AdminPage adminPage = new AdminPage(childTest);
+		adminPage.traverseToPIM();
 	}
 	
 	@AfterClass
